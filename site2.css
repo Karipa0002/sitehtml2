@@ -1,0 +1,165 @@
+body{
+    background-color: aliceblue;
+
+}
+body h1{
+    color: rgb(106, 116, 20);
+}
+ul {
+    padding-right: 70px;
+    text-align: center;
+    width:100%; 
+    float:left; 
+
+}
+
+li {
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.menu{
+   text-decoration: none;
+   color: rgb(156, 154, 21);
+}
+
+.menu:hover{
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+img{
+    position: static;
+    padding-left: 5%;
+    height: 100px; 
+    padding-bottom: 5px;
+}
+.h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.calendario {
+    background-color: #275f89;
+    color: #fff;
+    border-radius: 30px;
+   text-align: center;
+    padding: 10px 20px;
+} 
+
+.calendario_data{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.seazons{
+    font-size: 20px;
+    padding-left: 300px;
+
+}
+ 
+.arroz{
+    border-radius: 15px;
+    padding-top: 8px    ;
+    color: aliceblue;
+    text-align: center  ;
+    height: 30px;
+    background-color: #000000;
+}
+
+
+.pokes{
+    display: flex;
+    border-radius: 20px;
+    width: auto;
+    padding-left: 0px;
+    background-color: rgba(201, 5, 5, 0.26);
+}
+
+.informações{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+
+.h1tela2{
+       text-align: initial;
+       text-align: center;
+}
+
+.zona{
+    background-color: peru;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.zona img{
+    padding-top: 20px;
+    height: 200px;
+    text-shadow: none;
+    padding-right: 400px;
+}
+
+.aaaaaa{
+    padding-left: 30px;
+    padding-right: 1px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.imagempika .imgres{
+    padding-left: 35%;
+    width: 30%;
+    height: 90%;
+}
+
+
+.icones{
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+ 
+h2{
+    color: rgb(106, 116, 20);
+}
+
+.cor1{
+    padding-top: 60px;
+    display: flex;
+    padding-inline-start: 0%;
+    padding-left: 240px;
+    color: rgb(106, 116, 20);
+}
+
+.icones a{
+    display:inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #2869aa;
+    color: white;
+    margin: 0 3px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.mapa{
+padding-left: 300px;
+text-decoration: none;
+}
+
+.content img{
+    width: 700px;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-left: 170px;
+    height: 300px;
+    position:static;
+}

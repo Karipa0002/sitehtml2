@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+.skills-bar{
+    width: 600px;
+    background: #fff;
+     box-shadow: 5px 5px 10px rgba(0,0, 0, 2);
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.skills-bar .bar .linha{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    border-radius: 20px;
+}
+
+.bar .linha span{
+    width: 70%;
+    height: 100%;
+    background: rgba(173, 62, 62, 0.918);
+    position: absolute;
+}
+
+.charmander{
+    box-shadow: 5px 5px 10px ;
+    border-radius: 8px;
+    background: rgba(173, 62, 62, 0.918);
+}
+
+.confirmar .button{
+    background:    #1edc4b;
+    background:    linear-gradient(#1edc4b, #2e0909);
+    border:        1px solid #556699;
+    border-radius: 11px;
+    padding:       20px 45px;
+    color:         #fbfbfb;
+    display:       inline-block;
+    font:          italic bold 26px/1 "Lobster Two", cursive;
+    text-align:    center;
+}
+
+.background{
+    position: fixed;
+    z-index: -1;
+
+    
+}
+
+.cancelar{
+    padding-left: 20px;
+    background:    #cf1d1d;
+background:    linear-gradient(#cf1d1d, #2e0909);
+border:        1px solid #556699;
+border-radius: 11px;
+padding:       20px 45px;
+color:         #fbfbfb;
+display:       inline-block;
+font:          italic bold 26px/1 "Lobster Two", cursive;
+text-align:    center;
+}
+
+
+.confirmar{
+padding-right: 70px;
+color: white;
+}
+
+.floresta{
+    z-index: -1;
+        position:fixed;
+}
+
+.funny{
+    position: fixed;
+    z-index: -1;
+}
